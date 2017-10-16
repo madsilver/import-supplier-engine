@@ -53,12 +53,10 @@ class Engine
 
                 $supplier = $builder->supplierApprovals($supplier);
                 $dispatcher->esApproval($supplier, $id);
-
-                $this->errors[] = $row;
             }
             catch(Exception $e) {
-                //$row['message'] = $e->getMessage();
-                //$this->errors[] = $row;
+                $row['message'] = $e->getMessage();
+                $this->errors[] = $row;
             }
         }
 
