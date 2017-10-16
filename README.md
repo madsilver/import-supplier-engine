@@ -1,4 +1,4 @@
-# Import Categories Engine
+# Import Supplier Engine
 [![Build Status](https://travis-ci.org/madsilver/import-supplier-engine.svg?branch=master)](https://travis-ci.org/madsilver/import-supplier-engine)
 
 Script para cadastro de suppliers em lote no catalog-api.
